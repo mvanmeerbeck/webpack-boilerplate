@@ -1,13 +1,29 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Getting Started</title>
-  </head>
-  <body>
-   <script type="module">
-    import { Eniblock } from "./main.js";
+    <head>
+        <script src="./eniblock1.bundle.js"></script>
+        <script>
+            console.log(eniblock1);
+            const { Eniblock, Wallet, Config } = eniblock1;
 
-   </script>
-  </body>
+            const eniblock = new Eniblock();
+            console.log(eniblock.createWallet());
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+        <script>
+            console.log(axios, axios.defaults);
+
+            axios.get('')
+            .then(function (response) {
+                console.log(response);
+            })
+        </script>
+
+        <script src="./eniblock2.bundle.js"></script>
+        <script>
+            console.log(eniblock2);
+
+            console.log(eniblock2.createWallet());
+        </script>        
+    </head>
 </html>

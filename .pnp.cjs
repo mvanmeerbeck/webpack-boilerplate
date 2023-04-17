@@ -28,7 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["expose-loader", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.1.0"],\
             ["html-webpack-plugin", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.5.0"],\
+            ["turbo", "npm:1.9.1"],\
             ["webpack", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.79.0"],\
             ["webpack-cli", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.0.1"],\
             ["webpack-dev-server", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.13.2"]\
@@ -1706,6 +1708,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["onetime", "npm:5.1.2"],\
             ["signal-exit", "npm:3.0.7"],\
             ["strip-final-newline", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["expose-loader", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/expose-loader-npm-4.1.0-6748355f5d-2e5f6b8530.zip/node_modules/expose-loader/",\
+          "packageDependencies": [\
+            ["expose-loader", "npm:4.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/expose-loader-virtual-ebd6cbf7aa/0/cache/expose-loader-npm-4.1.0-6748355f5d-2e5f6b8530.zip/node_modules/expose-loader/",\
+          "packageDependencies": [\
+            ["expose-loader", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.1.0"],\
+            ["@types/webpack", null],\
+            ["webpack", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.79.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4029,6 +4053,75 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["turbo", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-npm-1.9.1-3ad3d56c66/node_modules/turbo/",\
+          "packageDependencies": [\
+            ["turbo", "npm:1.9.1"],\
+            ["turbo-darwin-64", "npm:1.9.1"],\
+            ["turbo-darwin-arm64", "npm:1.9.1"],\
+            ["turbo-linux-64", "npm:1.9.1"],\
+            ["turbo-linux-arm64", "npm:1.9.1"],\
+            ["turbo-windows-64", "npm:1.9.1"],\
+            ["turbo-windows-arm64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-darwin-64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-darwin-64-npm-1.9.1-5d28516678/node_modules/turbo-darwin-64/",\
+          "packageDependencies": [\
+            ["turbo-darwin-64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-darwin-arm64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-darwin-arm64-npm-1.9.1-8993670b75/node_modules/turbo-darwin-arm64/",\
+          "packageDependencies": [\
+            ["turbo-darwin-arm64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-linux-64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-linux-64-npm-1.9.1-8739956d58/node_modules/turbo-linux-64/",\
+          "packageDependencies": [\
+            ["turbo-linux-64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-linux-arm64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-linux-arm64-npm-1.9.1-5269600f80/node_modules/turbo-linux-arm64/",\
+          "packageDependencies": [\
+            ["turbo-linux-arm64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-windows-64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-windows-64-npm-1.9.1-c07431e877/node_modules/turbo-windows-64/",\
+          "packageDependencies": [\
+            ["turbo-windows-64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["turbo-windows-arm64", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/unplugged/turbo-windows-arm64-npm-1.9.1-81eca923ff/node_modules/turbo-windows-arm64/",\
+          "packageDependencies": [\
+            ["turbo-windows-arm64", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["type-is", [\
         ["npm:1.6.18", {\
           "packageLocation": "./.yarn/cache/type-is-npm-1.6.18-6dee4d4961-2c8e47675d.zip/node_modules/type-is/",\
@@ -4220,7 +4313,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["webpack-boilerplate", "workspace:."],\
+            ["expose-loader", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.1.0"],\
             ["html-webpack-plugin", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.5.0"],\
+            ["turbo", "npm:1.9.1"],\
             ["webpack", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.79.0"],\
             ["webpack-cli", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:5.0.1"],\
             ["webpack-dev-server", "virtual:b0ac461dd3092866680836f09af7e653260f737e7ee971fec9373fad59de83668804585ad53d372fa439b0e13e8e4c4a65f40babcb79b9d045a76c3178101509#npm:4.13.2"]\
